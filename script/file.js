@@ -241,10 +241,10 @@ const riddlesData_1 =
 // Initialize riddles in localStorage if not exists
 function initializeRiddles() {
 	let riddles;
-    if (window.location.href.includes('math_puzzles.html')) {
+    if (window.location.href.includes('math_puzzles')) {
     	console.log("entered puzzles")
         riddles_data = riddlesData;
-    } else if (window.location.href.includes('riddles.html')) {
+    } else if (window.location.href.includes('riddles')) {
     	console.log("entered riddles")
         riddles_data = riddlesData_1;
     }
